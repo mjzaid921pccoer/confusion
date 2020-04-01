@@ -1,0 +1,26 @@
+version1{
+	index.js:import bootstrap
+	App.js:import Navbar , <Navbar>tag in div
+	Creating Component
+	in public>"assets"folder created and pasted images folder
+	in src>"shared"folder created >"MenuComponent.js"file created
+	written code in MenuComponent.js as per commit "component part1"
+	App.js:import Menu line and <Menu/> adding bottom of <Navbar>
+	version1.1{//used state and props
+	in src>"shared"folder created and "dishes.js"file created including const DISHES json
+	App.js:import DISHES
+		inside App class> constructor(props){
+					super(props);
+						this.state={
+						dishes:DISHES
+						};
+					}
+		behind <Navbar>:<Menu dishes={this.state.dishes}/>
+	MenuComponent.js:delete dishes json
+			inside render>const menu=this.props.dishes.map(...
+	}
+}
+
+
+Version2{
+}
