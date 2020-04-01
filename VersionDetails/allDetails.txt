@@ -23,4 +23,5 @@ version1{
 
 
 Version2{
+MenuComponent.js: added Cards UI
 }
